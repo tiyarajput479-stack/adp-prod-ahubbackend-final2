@@ -1,0 +1,31 @@
+{
+  "name": "ahubbackend",
+  "version": "1.0.0",
+  "description": "backend for ahub",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "helmet": "^8.1.0",
+    "http-proxy-agent": "^7.0.2",
+    "https-proxy-agent": "^7.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mime": "^4.0.4",
+    "mime-types": "^2.1.35",
+    "mssql": "^12.7.4",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^3.0.3"
+  }
+}
